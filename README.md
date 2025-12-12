@@ -1,15 +1,16 @@
 # drone_atc
 **The Whats,Whys,Hows**
+
 I want to implement a simple "Air Traffic Control". Something that can detect weather there is going to be any drone in the path of another drone's path. To simplify this I am considering that all drones travel at the same height (for sim purpose 5 meters). Using the science of numbers we know the path of each drone. Now we can set a safety distance(minimum distance of closure) and calculate the delay for the second drone travelling there. That is done iteratively to calculate delay for each drone if it exists
 
 **SETUP ROS WORKSPACE:**
 My SETUP:
-	Primary System: Arch Linux
-	Distrobox with Docker: Ubuntu 24.04 
-		ROS: ROS2 Jazzy
-		Simulator: Gazebo Harmonic(8.10.0)
-	Python Version control: Mamba 2.1.1
-	Controller: QGroundControl
+Primary System: Arch Linux,
+Distrobox with Docker: Ubuntu 24.04 ,
+ROS: ROS2 Jazzy,
+Simulator: Gazebo Harmonic(8.10.0),
+Python Version control: Mamba 2.1.1,
+Controller: QGroundControl
 
 Make sure python and ROS dependencies match as most of the package maintainers keep changing things
 ```
