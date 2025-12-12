@@ -67,6 +67,7 @@ Basic 3D sim:
 source install/setup.bash
 python3 src/collision_avoidance_pkg/collision_avoidance_pkg/3d_mat_test.py
 ```
+4D sim:
 Gazebo , ROS, QGC sim:
 Open 2n+3 terminals if you need n drones simulated
 Run this to initialise communication
